@@ -1,7 +1,9 @@
 from tkinter import *
+from ttkbootstrap import Style
 
+style = Style()
 
-root = Tk()
+root = style.master
 root.title("Simple Calculator")
 
 #input box
